@@ -1,0 +1,1131 @@
+{
+    "user": {
+        "SignIn": "Connexion",
+        "SignInWithGoogle": "Connexion avec Google",
+        "SignInWithGithub": "Connexion avec GitHub",
+        "SignOut": "Déconnexion",
+        "SignInToView": "Connectez-vous pour voir",
+        "SignInToUse": "Connectez-vous pour utiliser",
+        "InvalidUserToken": "Token utilisateur non valide",
+        "MyAchievements": "Succès",
+        "Fields": {
+            "User": "Utilisateur",
+            "CreatedAt": "Créé Le",
+            "LastLogin": "Dernière Connexion",
+            "Level": "Niveau d'Utilisateur",
+            "FunctionUses": "Utilisation des Avancées",
+            "Times": "Fois",
+            "Fetching": "Recherche..."
+        },
+        "Level": {
+            "Standard": "Utilisateur Standard",
+            "Premium": "Utilisateur Premium",
+            "Owner": "Administrateur",
+            "Developer": "Développeur",
+            "HonoraryMember": "Membre Honoraire"
+        },
+        "Benefits": {
+            "Title": "Avantages Utilisateurs",
+            "Benefit": "Avantage",
+            "Note1": "En tant que produit open-source, l'utilisation de IPCheck.ing est gratuite.",
+            "Note2": "Cependant, afin de prévenir les abus, nous limitons certaines fonctionnalités. En vous connectant, vous obtiendrez les avantages suivants :",
+            "Benefit1": "Lorsque vous utilisez IPCheck.ing comme source de données IP, tous les champs sont affichés intégralement.",
+            "Benefit2": "Peut utiliser le test d'invisibilité.",
+            "Benefit3": "Peut voir les badges de réussite qu'il a obtenus",
+            "Benefit4": "Réduit les restrictions d'accès à certaines fonctionnalités.",
+            "FootNote": "D'autres avantages sont en cours de développement..."
+        },
+        "Achievements": {
+            "Title": "Succès",
+            "Note": "En utilisant IPCheck.ing, vous pouvez déclencher certains succès. Ici, vous pouvez voir tous vos succès.",
+            "Get": "obtenus",
+            "GetCount": "Succès obtenus:",
+            "NotGet": "non obtenus",
+            "NotGetCount": "Succès non obtenus",
+            "FooterNote": "Parfois, il peut y avoir des succès limités dans le temps.",
+            "Congrats": "🎉 Félicitations",
+            "CongratsMessage": "Vous avez obtenu un nouvel accomplissement !",
+            "NewAchievementIs": "Le nouvel accomplissement est :",
+            "Type": {
+                "IAmHuman": {
+                    "Title": "Je suis humain",
+                    "Meet": "Utiliser IPCheck.ing après s'être connecté"
+                },
+                "BarelyEnough": {
+                    "Title": "Tout juste suffisant",
+                    "Meet": "Vitesse de téléchargement supérieure à 100 Mb/s"
+                },
+                "RapidPace": {
+                    "Title": "Allure rapide",
+                    "Meet": "Vitesse de téléchargement supérieure à 500 Mb/s"
+                },
+                "TorrentFlow": {
+                    "Title": "Flux torrentiel",
+                    "Meet": "Vitesse de téléchargement supérieure à 1000 Mb/s"
+                },
+                "SteadyGoing": {
+                    "Title": "Débit constant",
+                    "Meet": "Vitesse d'envoi supérieure à 50 Mb/s"
+                },
+                "TooFastTooSimple": {
+                    "Title": "Trop rapide, trop simple",
+                    "Meet": "Vitesse d'envoi supérieure à 200 Mb/s"
+                },
+                "SwiftAscent": {
+                    "Title": "Ascension rapide",
+                    "Meet": "Vitesse d'envoi supérieure à 1000 Mb/s"
+                },
+                "SurfaceCheck": {
+                    "Title": "Vérification superficielle",
+                    "Meet": "Terminer un élément de la liste de contrôle de sécurité"
+                },
+                "HalfwayThere": {
+                    "Title": "À mi-chemin",
+                    "Meet": "Terminer 50 % de la liste de contrôle de sécurité"
+                },
+                "FullySecured": {
+                    "Title": "Sécurisé à 100%",
+                    "Meet": "Terminer toute la liste de contrôle de sécurité"
+                },
+                "JustInCase": {
+                    "Title": "Au cas où",
+                    "Meet": "Effectuer un test de furtivité"
+                },
+                "HiddenWell": {
+                    "Title": "Bien caché",
+                    "Meet": "La probabilité de proxy et de VPN est de 0 dans le test de furtivité"
+                },
+                "SlipUp": {
+                    "Title": "Gaffe",
+                    "Meet": "La probabilité de proxy ou de VPN est supérieure à 50 % dans le test de furtivité"
+                },
+                "CleverTrickery": {
+                    "Title": "Ruse ingénieuse",
+                    "Meet": "Avoir consulté tous les raccourcis clavier"
+                },
+                "EnergySaver": {
+                    "Title": "Économe en énergie",
+                    "Meet": "Configurer le programme pour qu'il ne s'exécute pas automatiquement"
+                },
+                "ResourceHog": {
+                    "Title": "Gourmand en ressources",
+                    "Meet": "Configurer plusieurs rafraîchissements pour la disponibilité"
+                },
+                "MakingBigNews": {
+                    "Title": "Faire les gros titres",
+                    "Meet": "Les appels de fonctions avancées dépassent 1000 fois"
+                },
+                "GenerousDonor": {
+                    "Title": "Généreux donateur",
+                    "Meet": "Avoir fait un don au projet IPCheck.ing"
+                },
+                "ItIsOpen": {
+                    "Title": "C'est ouvert",
+                    "Meet": "Le test de censure a trouvé un site bloqué"
+                },
+                "CuriousCat": {
+                    "Title": "Chat curieux",
+                    "Meet": "Rechercher les informations de IPCheck.ing dans la recherche Whois"
+                },
+                "CrossingTheWall": {
+                    "Title": "Huit personnes traversent la muraille",
+                    "Meet": "Toutes les 8 adresses IP de test sont différentes dans le test de règles"
+                }
+            }
+        }
+    },
+    "nav": {
+        "id": "nav",
+        "Title": "IPCheck.ing",
+        "Navigation": "Navigation",
+        "IPInfo": "Infos IP",
+        "Connectivity": "Connectivité",
+        "WebRTC": "Test WebRTC",
+        "DNSLeakTest": "Test de fuite DNS",
+        "SpeedTest": "Test de vitesse",
+        "PingTest": "Latence mondiale",
+        "MTRTest": "Test MTR",
+        "RuleTest": "Test de règles",
+        "AdvancedTools": "Outils avancés",
+        "preferences": {
+            "title": "Préférences",
+            "preferenceTips": "Ces paramètres sont enregistrés dans votre navigateur pour une utilisation ultérieure. Certains paramètres nécessitent un rafraîchissement de la page pour prendre effet.",
+            "colorScheme": "Schéma de Couleurs",
+            "systemAuto": "Système",
+            "colorLight": "Jour",
+            "colorDark": "Nuit",
+            "ipSourcesToCheck": "Serveurs pour vérifier les adresses IP",
+            "ipSourcesToCheckTips": "Sélectionnez le nombre de serveurs pour vérifier votre adresse IP. Plus vous en sélectionnez, plus cela prendra de temps pour terminer la vérification.",
+            "appSettings": "Paramètres de l'App",
+            "autoRun": "Exécution Automatique",
+            "autoRunTips": "Si désactivé, l'appli vérifiera seulement l'IP local et n'exécutera pas de tests automatiquement.",
+            "showMap": "Afficher la Carte",
+            "showMapTips": "Affiche une carte sur la carte d'info IP.",
+            "simpleMode": "Mode Simple",
+            "simpleModeTips": "Réduit les informations affichées sur les cartes IP. Effectif uniquement sur les appareils mobiles.",
+            "connectivityAutoRefresh": "Rafraîchissements Multiples de Connectivité",
+            "connectivityAutoRefreshTips": "Activé, l'appli effectue cinq vérifications au démarrage et affiche le délai le plus bas.",
+            "popupConnectivityNotifications": "Alertes de Connectivité Pop-up",
+            "popupConnectivityNotificationsTips": "Activé, les résultats de la première vérification sont affichés sous forme d'alerte pop-up.",
+            "ipDB": "Base de données de géolocalisation IP",
+            "ipDBTips": "Vous pouvez sélectionner la source de données de géolocalisation IP par défaut. Si la source sélectionnée n'est pas disponible, le système utilisera les sources suivantes.",
+            "language": "Paramètres de langue",
+            "languageTips": "Rafraîchissement du navigateur pour prendre effet."
+        }
+    },
+    "securitychecklist": {
+        "Title": "Liste de vérification de sécurité",
+        "Note": "Ceci est une liste de vérification de cybersécurité très complète, couvrant des aspects tels que la sécurité des mots de passe, la sécurité de navigation, et la sécurité des dispositifs mobiles. Dans l'environnement actuel, une fuite d'informations peut entraîner des pertes significatives, il est donc nécessaire de s'assurer que nous protégeons notre vie privée et augmentons la sécurité de nos accès lors de la connexion à Internet.",
+        "Note2": "Cette liste contient de nombreux éléments; vous n'avez pas besoin de tout vérifier en une seule fois. Les progrès seront sauvegardés dans le navigateur, et vous pouvez revenir à tout moment pour continuer les vérifications.",
+        "Progress": "Progression des vérifications",
+        "Item": "Élément",
+        "Items": "Élément(s) ",
+        "Priority": "Priorité",
+        "Ignore": "Ignorer",
+        "alert-total": "La vérification de sécurité a un total de",
+        "alert-checked": "Vous avez complété",
+        "alert-ignored": "Ignoré",
+        "alert-unchecked": "Non vérifié.",
+        "Checked": "Vérifié",
+        "Ignored": "Ignoré",
+        "Unchecked": "Non vérifié",
+        "Basic": "De base",
+        "Optional": "En option",
+        "Essential": "Essentiel",
+        "Advanced": "Avancé",
+        "Reset": "Réinitialiser",
+        "ShowAll": "Afficher tout",
+        "ShowUnchecked": "Afficher les éléments non cochés",
+        "ShowIgnored": "Afficher les éléments ignorés",
+        "ShowChecked": "Afficher les éléments cochés",
+        "Loading": "Chargement..."
+    },
+    "curl": {
+        "Title": "API de ligne de commande",
+        "Note1": "Eh bien, il s'avère que toi aussi tu aimes utiliser le terminal ?",
+        "Note2_1": "Tu peux, dans le terminal, via",
+        "Note2_2": "commande, obtenir l'adresse IP de cette machine",
+        "Note3": "est un chemin optionnel, son ajout permettra d'obtenir les informations géographiques de l'IP",
+        "getIPv4": "Obtenir l'adresse IPv4 de la machine locale",
+        "getIPv6": "Obtenir l'adresse IPv6 de la machine locale",
+        "get6and4": "Obtenir l'adresse IP de sortie de réseau préférée de la machine locale",
+        "notAvailable": "Cette fonctionnalité n'est pas encore disponible"
+    },
+    "browserinfo": {
+        "Title": "Informations du Navigateur",
+        "Note": "Cette page affiche deux types d'informations sur le navigateur : les informations de base extraites de l'agent utilisateur du navigateur et une empreinte numérique du navigateur calculée à travers diverses métriques de données. Les empreintes numériques du navigateur sont similaires aux empreintes palmaires ; plus votre navigateur expose d'informations, plus votre unicité sur les sites web est élevée, ce qui vous rend plus facilement traçable. Parfois, même en passant en mode privé ou en changeant de navigateur, l'empreinte peut ne pas changer.",
+        "Note2": "Les méthodes de calcul des empreintes numériques des navigateurs sont variées, et différentes approches techniques peuvent conduire à des résultats incohérents. Ici, nous utilisons une méthode relativement simple pour le calcul.",
+        "browser": {
+            "Infos": "Informations du Navigateur",
+            "browserName": "Nom du Navigateur",
+            "browserVersion": "Version",
+            "engineName": "Moteur",
+            "engineVersion": "Version",
+            "osName": "Système d'Exploitation",
+            "osVersion": "Version",
+            "deviceModel": "Modèle",
+            "deviceVendor": "Fabricant",
+            "cpuArchitecture": "Architecture CPU",
+            "gpu": "GPU",
+            "cpuCores": "Cœurs CPU",
+            "language": "Code Langue",
+            "cookieEnabled": "Cookies Activés",
+            "cookieEnabledTrue": "Oui",
+            "cookieEnabledFalse": "Non"
+        },
+        "fingerprint": {
+            "Infos": "Informations sur l'Empreinte",
+            "fingerprint": "Code d'Empreinte",
+            "changeOption": "Vous pouvez essayer de modifier les données utilisées pour calculer l'empreinte du navigateur afin d'observer les variations (n'oubliez pas de vérifier en mode privé).",
+            "browserTips": "Certains navigateurs, comme Safari, protègent les utilisateurs contre le pistage en générant des valeurs d'empreinte différentes à chaque calcul, même lorsque les mêmes données sont sélectionnées."
+        },
+        "options": {
+            "audio": "Audio",
+            "canvas": "Canvas",
+            "fonts": "Polices",
+            "hardware": "Matériel",
+            "locales": "Langues",
+            "permissions": "Permissions",
+            "plugins": "Plugins",
+            "screen": "Écran",
+            "system": "Version du Navigateur",
+            "webgl": "WebGL",
+            "math": "Mathématiques"
+        },
+        "calError": "Échec du calcul des informations du navigateur, veuillez rafraîchir et réessayer.",
+        "calculating": "Calcul en cours..."
+    },
+    "invisibilitytest": {
+        "Title": "Test d'invisibilité",
+        "Note": "Lorsque vous utilisez un proxy ou un VPN, les sites que vous visitez ne savent-ils vraiment pas que vous utilisez un proxy ? Êtes-vous réellement invisible ? Nous utiliserons plusieurs méthodes pour essayer de détecter les failles de votre anonymat et trouver des preuves de l'utilisation d'un proxy. Bien que certains résultats de test puissent ne pas être entièrement précis, ce test reste très instructif.",
+        "Note2": "Après avoir cliqué sur Exécuter, le système exécutera un script qui terminera généralement tous les tests en moins de 10 secondes. Pendant ce processus, vos informations IP, les informations de votre navigateur, etc. seront collectées et analysées en arrière-plan.",
+        "Run": "Exécuter le test",
+        "fetchError": "Impossible de récupérer les résultats du test",
+        "yourIP": "Votre adresse IP principale est",
+        "scoreProxy": "Pourcentage de proxy",
+        "scoreVPN": "Pourcentage de VPN",
+        "isProxy": "Vous utilisez probablement un proxy.",
+        "notProxy": "Aucune preuve d'utilisation d'un proxy n'a été trouvée.",
+        "isVPN": "Vous utilisez probablement un VPN.",
+        "notVPN": "Aucune preuve d'utilisation d'un VPN n'a été trouvée.",
+        "itemName": "Élément de test",
+        "itemProxyResult": "Résultat du test",
+        "itemComment": "Analyse",
+        "agreement": "J'accepte",
+        "blocklist": {
+            "title": "Liste des VPN/Proxy",
+            "proxy": "Votre adresse IP figure dans la liste des VPN/Proxy.",
+            "notProxy": "Votre adresse IP ne figure pas dans la liste des VPN/Proxy."
+        },
+        "headers": {
+            "title": "Informations d'en-tête HTTP",
+            "proxy": "Vos informations d'en-tête HTTP contiennent des informations de proxy, vous utilisez probablement un proxy.",
+            "notProxy": "Aucune information de proxy n'a été trouvée dans vos informations d'en-tête HTTP."
+        },
+        "datacenter": {
+            "title": "IP de centre de données",
+            "proxy": "Votre adresse IP est une adresse IP de centre de données, les utilisateurs normaux n'ont généralement pas d'adresse IP de centre de données. Le centre de données détecté est :",
+            "notProxy": "Votre adresse IP n'est pas une adresse IP de centre de données."
+        },
+        "tcp": {
+            "title": "Empreinte TCP",
+            "proxy": "Le système à partir duquel vous établissez la connexion est différent de votre système informatique, vous utilisez probablement un proxy. Bien que la détection du système ne soit pas toujours précise, il est certain que les deux systèmes sont différents.",
+            "computer": "Votre système informatique est :",
+            "server": "Le système à partir duquel vous établissez la connexion est probablement :",
+            "notProxy": "Le système à partir duquel vous établissez la connexion est identique à votre système informatique."
+        },
+        "timezone": {
+            "title": "Différence de fuseau horaire",
+            "proxy": "Votre fuseau horaire ne correspond pas à l'emplacement géographique de votre adresse IP, vous utilisez probablement un proxy.",
+            "computer": "Votre fuseau horaire est :",
+            "server": "Le fuseau horaire de l'emplacement géographique de votre adresse IP est :",
+            "notProxy": "Votre fuseau horaire correspond à l'emplacement géographique de votre adresse IP."
+        },
+        "net": {
+            "title": "Analyse de la résolution DNS",
+            "proxy": "L'analyse de la résolution DNS indique que vous utilisez probablement un proxy ou un VPN.",
+            "notProxy": "Aucune preuve d'utilisation d'un proxy ou d'un VPN n'a été trouvée dans l'analyse de la résolution DNS."
+        },
+        "webrtc": {
+            "title": "Détection WebRTC",
+            "proxy": "WebRTC a détecté plusieurs adresses IP provenant de différentes régions, vous utilisez probablement un proxy ou un VPN.",
+            "ipsAre": "Les adresses IP sont respectivement :",
+            "notProxy": "Aucune adresse IP provenant de différentes régions n'a été détectée par WebRTC."
+        },
+        "flow": {
+            "title": "Analyse du trafic",
+            "proxy": "L'analyse du trafic indique que vous utilisez probablement un proxy ou un VPN.",
+            "notProxy": "Aucune preuve d'utilisation d'un proxy ou d'un VPN n'a été trouvée dans l'analyse du trafic."
+        },
+        "latency": {
+            "title": "Analyse de la latence",
+            "proxy": "L'analyse de la latence indique que vous utilisez probablement un proxy ou un VPN.",
+            "fromTCP": "Valeur de latence TCP :",
+            "fromWS": "Valeur de latence WebSocket :",
+            "notProxy": "Aucune preuve d'utilisation d'un proxy ou d'un VPN n'a été trouvée dans l'analyse de la latence."
+        },
+        "highlatency": {
+            "title": "Analyse de la latence élevée",
+            "proxy": "L'analyse de la latence élevée indique que vous utilisez probablement un proxy ou un VPN.",
+            "notProxy": "Aucune preuve d'utilisation d'un proxy ou d'un VPN n'a été trouvée dans l'analyse de la latence élevée."
+        }
+    },
+    "censorshipcheck": {
+        "Title": "Test de censorship",
+        "Note": "Vérifie la disponibilité des sites cibles dans quatre régions connues pour une censure internet rigoureuse, incluant : la Chine continentale, l'Arabie Saoudite, la Russie, et la Turquie. Des tests sont également réalisés depuis des régions où l'internet est relativement libre, servant de groupe témoin pour la vérification. Certaines régions disposent de dispositions légales claires sur la censure internet, tandis que d'autres sont plus vagues.",
+        "Note2": "Veuillez entrer une URL ou un nom de domaine pour commencer le test de censure :",
+        "Note3": "Un site est considéré comme bloqué uniquement si aucun serveur dans le même pays ne peut y accéder.",
+        "Run": "Lancer le Test",
+        "Placeholder": "URL ou Nom de Domaine",
+        "Country": "Région",
+        "Status": "Statut",
+        "City": "Ville",
+        "Network": "Réseau",
+        "invalidURL": "URL ou Nom de Domaine invalide",
+        "fetchError": "Impossible de récupérer les résultats des tests",
+        "isBlocked": "Ce site semble être bloqué dans certains pays, veuillez vous référer aux résultats des tests ci-dessus pour une détermination finale.",
+        "notBlocked": "Ce site ne semble pas être bloqué, veuillez vous référer aux résultats des tests ci-dessus pour une détermination finale.",
+        "isDown": "Il est difficile de déterminer si ce site est bloqué, car il semble inaccessible de nombreux endroits dans le monde. Si l'adresse que vous avez entrée est correcte, il est possible que le site lui-même rencontre des problèmes et ne soit pas accessible.",
+        "Timeout": "Délai d'Attente du Test",
+        "TestGroup": "Groupe de Test",
+        "ControlGroup": "Groupe Témoin"
+    },
+    "advancedtools": {
+        "Title": "Outils avancés",
+        "Note": "Certains outils sont utilisés relativement rarement, mais sont très utiles lors des tests de réseaux.",
+        "PingTestNote": "Test de la valeur Ping mondiale",
+        "MTRTestNote": "Test de route MTR mondial",
+        "DNSResolverNote": "Résolution DNS multi-canal en temps réel",
+        "RuleTestNote": "Vérifiez les paramètres de règles du logiciel de proxy",
+        "CensorshipCheck": "Vérifier si un site est bloqué dans certains pays",
+        "Whois": "Recherche d'informations sur l'enregistrement de domaine/IP",
+        "InvisibilityTest": "Vérifiez si vous utilisez un proxy ou un VPN",
+        "MacChecker": "Requête d'informations d'une adresse physique",
+        "BrowserInfo": "Vérifier les informations du navigateur et l'empreinte digitale",
+        "SecurityChecklist": "Guide pour sécuriser votre vie numérique"
+    },
+    "macchecker": {
+        "Title": "Recherche MAC",
+        "Note": "Interroger le fabricant d'une adresse physique (adresse MAC), s'il s'agit d'une adresse unicast/multicast, globale/locale, etc. Prend en charge la requête avec une adresse complète de 12 chiffres ou juste le préfixe. Vous pouvez également utiliser cet outil pour vérifier si l'adresse physique que vous avez générée répond à vos besoins.",
+        "Note2": "Veuillez saisir une adresse physique pour commencer la requête:",
+        "Run": "Interroger",
+        "Placeholder": "F0:2F:4B:01:0A:AA",
+        "invalidMAC": "Adresse physique invalide",
+        "fetchError": "Impossible de récupérer les résultats de la requête",
+        "company": "Fabricant",
+        "macPrefix": "Préfixe d'adresse physique",
+        "address": "Adresse enregistrée",
+        "country": "Pays/région enregistré",
+        "blockStart": "Bloc de départ",
+        "blockEnd": "Bloc de fin",
+        "blockSize": "Taille du bloc",
+        "blockType": "Type de bloc",
+        "blockRange": "Plage du bloc",
+        "isRand": "Adresse aléatoire",
+        "isPrivate": "Données privées",
+        "isMulticast": "Adresse multicast",
+        "isUnicast": "Adresse unicast",
+        "isGlobal": "Adresse mondiale",
+        "isLocal": "Adresse locale",
+        "property": "Propriété de l'adresse",
+        "value": "Valeur",
+        "manufacturer": "Détails du fabricant"
+    },
+    "whois": {
+        "Title": "Recherche Whois",
+        "Note": "La recherche Whois est un service utilisé pour récupérer des informations sur l'enregistrement d'un domaine. En entrant un nom de domaine ou une adresse IP, vous pouvez obtenir des informations telles que les détails d'enregistrement du domaine, le registraire, la date d'enregistrement, la date d'expiration, et plus encore. Les informations Whois pour les adresses IP et les noms de domaine peuvent avoir des champs différents. De plus, certains domaines de premier niveau (TLD) moins courants peuvent ne pas avoir d'informations disponibles pour les requêtes Whois.",
+        "Note2": "Veuillez entrer un nom de domaine ou une adresse IP pour démarrer la requête :",
+        "Note3": "Whois informations contient plusieurs types de champs, voici le texte brut original",
+        "Placeholder": "Nom de domaine ou IP",
+        "Run": "Rechercher",
+        "invalidURL": "Nom de domaine ou IP invalide",
+        "fetchError": "Impossible de récupérer les résultats de la requête ou les résultats de la requête sont vides",
+        "Provider": "Fournisseur d'informations"
+    },
+    "dnsresolver": {
+        "Title": "Résolution DNS",
+        "Note": "Dans certaines régions, pour des raisons politiques ou commerciales, certains opérateurs peuvent contaminer certains noms de domaine, entraînant des résultats incorrects lorsqu'ils sont accédés directement. L'utilisation de vérifications de résolution DNS vous aidera à inspecter les résultats de résolution de noms de domaine auprès de fournisseurs DNS renommés dans le monde entier. Parmi les tests DNS intégrés, certains fournisseurs sont originaires de Chine, dont les résultats de résolution DNS peuvent être contaminés. Veuillez faire preuve de discernement.",
+        "Note2": "Veuillez entrer une URL ou un nom de domaine pour commencer la résolution :",
+        "Placeholder": "URL ou Nom de Domaine",
+        "Run": "Exécuter",
+        "invalidURL": "URL ou Nom de Domaine invalide",
+        "fetchError": "Impossible de récupérer les résultats de résolution",
+        "Provider": "Fournisseur DNS",
+        "Result": "Résultat de la Résolution",
+        "Record": "Enregistrement"
+    },
+    "ruletest": {
+        "Title": "Test de règles",
+        "Name": "Test",
+        "Note": "Le test de règles est utilisé pour déterminer si les paramètres de règles basées sur le nom de domaine de votre logiciel proxy sont corrects. Avant de procéder au test, veuillez vous référer à la carte ci-dessous et configurer des règles de redirection de domaine différentes pour les 8 URL différentes d'IPCheck.ing dans votre logiciel proxy.",
+        "StatusWait": "En attente du test ou erreur de connexion",
+        "StatusError": "Erreur de test",
+        "Country": "Région de proxy",
+        "RefreshAll": "Actualiser tout"
+    },
+    "Tooltips": {
+        "RefreshIPCard": "Actualiser la carte IP",
+        "RefreshConnectivityTests": "Actualiser les tests de connectivité",
+        "RefreshWebRTC": "Actualiser le test WebRTC",
+        "RefreshDNSLeakTest": "Actualiser le test de fuite DNS",
+        "SpeedTestButton": "Démarrer/Pause le test de vitesse",
+        "ToggleMaps": "Afficher/Masquer les cartes",
+        "SourceSelect": "Sélectionner la source de géolocalisation IP",
+        "ShowASNInfo": "Afficher les détails AS",
+        "CopyIP": "Copier l'adresse IP",
+        "InfoMask": "Masquer les informations IP",
+        "QueryIP": "Interroger l'adresse IP",
+        "GithubLink": "Voir le code source sur GitHub",
+        "RefreshRuleTests": "Actualiser les tests de règles",
+        "qualityScoreExplain": "Le score de qualité IP est calculé sur la base de plusieurs facteurs pondérés, incluant le type d'IP, si c'est un proxy/VPN, et le nombre d'événements d'attaque récemment détectés provenant de cette IP. Un score plus élevé indique une meilleure qualité de l'IP, réduisant la probabilité d'être bloqué par le contrôle de risques sur certains sites."
+    },
+    "ipInfos": {
+        "id": "ipinfos",
+        "database": "Données",
+        "Title": "Infos IP",
+        "Notes": "Le programme vérifie d'abord votre adresse IP à partir des sources différentes (y compris IPv4 et IPv6), puis interroge les données géographiques correspondantes à partir de la source d'informations de localisation IP que vous avez sélectionnée. Si vous n'avez qu'une seule pile IP active, les sources de données non disponibles seront affichées comme vides.",
+        "Simple": "Simple",
+        "Map": "Carte",
+        "MapUnavailable": "Carte non disponible",
+        "Source": "Source IP",
+        "IP": "IP",
+        "Country": "Région",
+        "Region": "État",
+        "City": "Ville",
+        "ISP": "ISP",
+        "ASN": "ASN",
+        "IPv4Error": "Échec de récupération ou pas d'adresse IPv4",
+        "IPv6Error": "Échec de récupération ou pas d'adresse IPv6",
+        "SelectSource": "Source de géolocalisation IP",
+        "type": "Type",
+        "isProxy": "Proxy",
+        "qualityScore": "Qualité IP",
+        "qualityScoreUnknown": "Score inconnu",
+        "ASNInfo": {
+            "note": "Données associées à cet AS :",
+            "asnName": "Nom de l'AS :",
+            "asnOrgName": "Nom de l'organisation de l'AS :",
+            "estimatedUsers": "Nombre d'utilisateurs estimé :",
+            "IPv4_Pct": "Pourcentage de trafic IPv4 :",
+            "IPv6_Pct": "Pourcentage de trafic IPv6 :",
+            "HTTP_Pct": "Pourcentage de trafic HTTP :",
+            "HTTPS_Pct": "Pourcentage de trafic HTTPS :",
+            "Desktop_Pct": "Pourcentage d'appareils de bureau :",
+            "Mobile_Pct": "Pourcentage d'appareils mobiles :",
+            "Bot_Pct": "Pourcentage de trafic de robots :",
+            "Human_Pct": "Pourcentage de trafic humain :"
+        },
+        "proxyDetect": {
+            "yes": "Doit être un proxy ou un VPN",
+            "maybe": "Possiblement un proxy ou un VPN",
+            "no": "Pas un proxy ou un VPN",
+            "unknownProxyType": "Type inconnu",
+            "unknownProtocol": "Protocole inconnu",
+            "type": {
+                "Residential": "Résidentiel",
+                "Wireless": "Sans fil",
+                "Business": "Entreprise",
+                "Hosting": "Hébergement",
+                "unknownType": "Type inconnu"
+            }
+        }
+    },
+    "connectivity": {
+        "id": "connectivity",
+        "Title": "Connectivité réseau",
+        "Note": "Tests via chargement d'images à partir des sites correspondants. Les valeurs de délai sont données à titre indicatif seulement et seront plus petites en réalité.",
+        "StatusWait": "En attente du test",
+        "StatusAvailable": "OK",
+        "StatusUnavailable": "Non disponible",
+        "StatusTimeout": "Délai dépassé",
+        "checking": "Vérification en cours...",
+        "minTestTime": "Minimal: ",
+        "RefreshThisTest": "Rafraîchir ce test"
+    },
+    "webrtc": {
+        "id": "webrtc",
+        "Title": "Test WebRTC",
+        "Note": "WebRTC établit souvent des connexions directes via UDP. Si le test renvoie votre véritable adresse IP, cela signifie que vos paramètres de proxy ne couvrent pas ces connexions. En plus de détecter l'adresse IP que vous utilisez lors de la connexion à WebRTC, nous détectons également votre type de NAT. Cependant, la détection du type de NAT n'est pas précise à 100% et est fournie à titre indicatif uniquement.",
+        "StatusWait": "En attente du test ou erreur de connexion",
+        "StatusError": "Erreur de test",
+        "NATType": {
+            "srflx": "Port Restricted Cone ou Symmetric",
+            "prflx": "Port Restricted Cone",
+            "relay": "Symmetric",
+            "host": "Full Cone",
+            "unknown": "Type de inconnu"
+        }
+    },
+    "dnsleaktest": {
+        "id": "dnsleaktest",
+        "Name": "Test",
+        "Title": "Test de fuite DNS",
+        "Note": "Une fuite DNS signifie que lorsque vous êtes connecté à un VPN/proxy, vos résolutions de noms de domaine sont toujours effectuées via votre fournisseur d'accès Internet local, ce qui pose un risque de fuite DNS.",
+        "Note2": "La méthode de test des fuites DNS consiste à accéder à un nom de domaine nouvellement généré pour détecter la région DNS de sortie à laquelle vous effectuez une résolution. Si la région de l'extrémité renvoyée correspond à la région de votre fournisseur de services local, il y a un risque de fuite DNS. Dans ce cas, vous devrez peut-être modifier vos paramètres VPN/proxy.",
+        "Endpoint": "Point de terminaison DNS",
+        "EndpointCountry": "Région de l'extrémité",
+        "StatusWait": "En attente du test",
+        "StatusError": "Erreur de test"
+    },
+    "speedtest": {
+        "id": "speedtest",
+        "Title": "Test de vitesse",
+        "Note": "Le test de vitesse sera effectué via le réseau de bordure de Cloudflare, ce qui peut prendre beaucoup de temps. Si votre réseau est situé en Chine continentale, les données peuvent être biaisées. Les résultats du test de vitesse sont donnés à titre indicatif, la vitesse réelle sera plus rapide. Vous pouvez choisir la taille des paquets pour les tests de téléchargement et d'upload. Par défaut, le test de vitesse effectuera 4 tours de téléchargements et d'uploads de paquets, veuillez faire attention à la consommation de données.",
+        "Download": "Téléchargement",
+        "Upload": "Téléversement",
+        "Latency": "Latence",
+        "Jitter": "Gigue",
+        "Unit": "Mbps",
+        "StatusWait": "--",
+        "StatusError": "Erreur de test",
+        "videoStreaming": "Streaming vidéo : ",
+        "gaming": ", Jeu : ",
+        "rtc": ", Chat vidéo : ",
+        "score": "Sur la base du test de vitesse, voici les scores de qualité suivants :",
+        "resultNote": ".",
+        "connectionFrom": "Test de vitesse terminé depuis votre machine, IP: ",
+        "connectionTo": " vers le serveur de test:",
+        "connectionEnd": " .",
+        "quality": {
+            "Good": "Bon",
+            "Medium": "Moyen",
+            "Bad": "Mauvais"
+        }
+    },
+    "pingtest": {
+        "id": "pingtest",
+        "Title": "Test de latence mondiale",
+        "Note": "Le test de ping est un outil réseau utilisé pour mesurer le temps aller-retour des paquets de données de votre appareil vers des cibles spécifiques (dans ce cas, nos serveurs situés sur différents continents et régions). Il s'agit d'une mesure clé pour évaluer les performances du réseau.",
+        "Note2": "Dans ce processus, IPCheck.ing envoie de petits paquets de données depuis des serveurs du monde entier vers votre adresse IP et mesure le temps qu'il faut à ces paquets pour voyager du serveur à votre appareil et vice versa. Grâce à ces tests de ping depuis différentes localisations géographiques, vous pouvez obtenir une vue complète de la vitesse et de la stabilité de la connexion de votre appareil au réseau mondial.",
+        "Note3": "Veuillez sélectionner votre adresse IP pour le test.",
+        "SelectIP": "Choisissez un IP",
+        "Region": "Région",
+        "MinDelay": "Délai minimum (ms)",
+        "MaxDelay": "Délai maximum (ms)",
+        "AvgDelay": "Délai moyen (ms)",
+        "TotalPackets": "Paquets totaux",
+        "PacketLoss": "Perte de paquets",
+        "ReceivedPackets": "Reçus",
+        "DroppedPackets": "Perdus",
+        "Run": "Démarrez",
+        "Error": "Échec du test, il semble que votre IP ne soit pas autorisée à effectuer le test de ping."
+    },
+    "mtrtest": {
+        "id": "mtrtest",
+        "Title": "Test MTR",
+        "Note": "Le test MTR (My Traceroute) effectue une traçabilité détaillée de votre adresse IP à partir de serveurs situés sur différents continents et régions du monde. Le test MTR combine les fonctionnalités des commandes de traceroute traditionnelles et de ping pour diagnostiquer la qualité et les performances des connexions réseau en temps réel.",
+        "Note2": "Ce processus couvre le chemin complet depuis différentes localisations géographiques jusqu'à votre environnement réseau, fournissant des informations sur la latence et la perte de paquets pour chaque saut. Qu'il s'agisse de congestion dans le chemin de routage, de problèmes de latence à un nœud spécifique ou de perte de paquets pendant la transmission, le test MTR fournit des informations de diagnostic essentielles.",
+        "Note3": "Veuillez sélectionner votre adresse IP pour le test.",
+        "SelectIP": "Choisissez un IP",
+        "Region": "Région",
+        "Run": "Démarrez",
+        "Error": "Échec du test, il semble que votre IP ne soit pas autorisée à effectuer le test MTR."
+    },
+    "ipcheck": {
+        "id": "ipcheck",
+        "Title": "Vérification IP",
+        "Placeholder": "Veuillez entrer une adresse IP",
+        "Button": "Vérifier",
+        "Error": "Veuillez entrer une adresse IPv4 ou IPv6 valide."
+    },
+    "alert": {
+        "id": "alert",
+        "refreshEverythingMessage": "Actualisation de toutes les données, veuillez patienter...",
+        "refreshEverythingTitle": "Actualisation",
+        "OhNo": "Oh non !",
+        "Congrats": "Félicitations !",
+        "OhNo_Message": "Le test de connectivité a échoué, certains sites web ne sont pas accessibles.",
+        "Congrats_Message": "Tous les tests de connectivité ont réussi, vous pouvez accéder à tous les sites web.",
+        "maskedInfoTitle_1": "IP masquée",
+        "maskedInfoMessage_1": "Les informations sur l'adresse IP ont été masquées, veuillez faire attention lorsque vous prenez des captures d'écran.",
+        "maskedInfoTitle": "Toutes les infos masquées",
+        "maskedInfoMessage": "Toutes les informations ont été masquées, vous pouvez maintenant prendre des captures d'écran en toute sécurité.",
+        "unmaskedInfoTitle": "Infos démasquées",
+        "unmaskedInfoMessage": "Les informations ont été démasquées, veuillez faire attention lorsque vous prenez des captures d'écran.",
+        "SignInFailed": "Echec de connexion",
+        "SignInFailedReason": "Raison"
+    },
+    "shortcutKeys": {
+        "id": "shortcutKeys",
+        "GoToTop": "Aller en haut",
+        "GoToBottom": "Aller en bas",
+        "ToggleDarkMode": "Activer/désactiver le mode sombre",
+        "RefreshEverything": "Actualiser tout",
+        "RefreshIPCard": "Actualiser la carte IP",
+        "RefreshConnectivityTests": "Actualiser les tests de connectivité",
+        "RefreshWebRTC": "Actualiser le test WebRTC",
+        "RefreshDNSLeakTest": "Actualiser le test de fuite DNS",
+        "SpeedTestButton": "Démarrer/Pause le test de vitesse",
+        "PingTest": "Ouvrir le Test de latence mondial",
+        "MTRTest": "Ouvrir le Test MTR",
+        "RuleTest": "Ouvrir le Test de régles",
+        "DNSResolver": "Ouvrir le Résolution DNS",
+        "ToggleMaps": "Activer/désactiver les cartes",
+        "IPCheck": "Vérification IP",
+        "ToggleInfoMask": "Masquer/Démasquer les informations",
+        "Help": "Afficher les raccourcis clavier",
+        "HelpNote": "Les personnes qui utilisent des raccourcis clavier sont vraiment géniales !",
+        "GoNext": "Carte suivante",
+        "GoPrevious": "Carte précédente",
+        "RefreshRuleTests": "Actualiser les tests de règles",
+        "CensorshipCheck": "Ouvrir le Test de censorship",
+        "Preferences": "Ouvrir les Préférences",
+        "About": "Ouvrir À propos",
+        "Whois": "Ouvrir la Recherche Whois",
+        "InvisibilityTest": "Ouvrir le Test d'invisibilité",
+        "MacChecker": "Ouvrir le Recherche de MAC",
+        "BrowserInfo": "Ouvrir l'Info du navigateur",
+        "fullScreenAdvancedTools": "Outils avancés en plein écran",
+        "Curl": "Ouvrir le Shell",
+        "SecurityChecklist": "Ouvrir la Liste de sécurité"
+    },
+    "page": {
+        "title": "IPCheck.ing - Vérifier mon adresse IP et géolocalisation - Vérifier l'adresse IP de connexion WebRTC - Test de fuite DNS - Test de vitesse - Jason Ng Open Source",
+        "description": "Une boîte à outils IP meilleure et open source. Facile à vérifier vos adresses IP, informations IP, vérifier les fuites DNS, examiner les connexions WebRTC, tester la disponibilité des sites web, rechercher des enregistrements DNS, rechercher des informations Whois et tester la latence dans le monde entier.",
+        "keywords": "MonIP, Outil IP, Mon IP, Vérification IP, Recherche IP, Test de fuite DNS, Test WebRTC, Test de vitesse, Recherche DNS, Recherche Whois, Test de ping, Test de confidentialité",
+        "footerLink": "https://wobshare.us.kg",
+        "copyRightName": "Originalement de ",
+        "copyRightLink": "https://ipcheck.ing",
+        "copyRightLinkName": "IPCheck.ing"
+    },
+    "helpModal": {
+        "Title": "Raccourcis"
+    },
+    "about": {
+        "Title": "À propos",
+        "product1": "IPCheck.ing est une boîte à outils IP gratuite qui vous aide à vérifier vos informations IP, tester la disponibilité des sites web, examiner les informations de sortie DNS, effectuer des tests de vitesse, des tests de latence mondiale, des tests MTR, et plus encore.",
+        "product2": "Il s'agit d'un projet open-source, et vous pouvez consulter le code source en cliquant sur l'icône GitHub en bas de la page.",
+        "product3": "Au départ, il s'agissait d'un projet personnel pour moi afin d'apprendre Vue.js et comment écrire du code en utilisant ChatGPT. Au fil du temps, il a gagné en popularité sur GitHub, j'ai donc effectué beaucoup de refactoring et ajouté de nombreuses fonctionnalités utiles. J'espère que vous l'apprécierez.",
+        "meTitle": "À propos de moi",
+        "me1": "Je m'appelle Jason Ng, également connu sous le nom d'Achán en ligne. Je ne suis pas un programmeur professionnel, mais j'adore coder, l'open-source et le partage.",
+        "me2": "La plupart du temps, je travaille en tant que chef de produit, blogueur, motard et geek.",
+        "me3": "Vous pouvez trouver une présentation plus détaillée à mon sujet dans le lien suivant :",
+        "contactTitle": "Contactez-moi",
+        "contact": "Si vous avez des questions ou des suggestions, veuillez me contacter par email : jason[AT]kenengba.com.",
+        "personal": "Site personnel",
+        "blog": "Mon blog",
+        "retiremoney": "Planificateur futur",
+        "twitter": "Twitter",
+        "Sponsor": "Sponsor"
+    },
+    "specialthanks": {
+        "Title": "Merci spécial",
+        "Note1": "Ce projet n'aurait pas pu être achevé sans le soutien et l'aide de certaines personnes et organisations enthousiastes, ainsi que de ceux qui ont fourni l'inspiration ou partagé leur code en open-source. Un grand merci à eux :"
+    },
+    "changelog": {
+        "Title": "Modifs",
+        "add": "Ajouté",
+        "improve": "Amélioré",
+        "fix": "Corrigé",
+        "versions": [
+            {
+                "version": "v1.0",
+                "date": "Nov 06, 2020",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Affichage des informations IP de l'utilisateur"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Affichage des informations IP avant et après le proxy"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Vérification de la disponibilité des sites web"
+                    }
+                ]
+            },
+            {
+                "version": "v2.0",
+                "date": "Nov 24, 2023",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Refonte complète du projet en utilisant Vue2"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Refonte de l'interface utilisateur en utilisant Bootstrap v5"
+                    }
+                ]
+            },
+            {
+                "version": "v2.1",
+                "date": "Nov 25, 2023",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout du test WebRTC"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la logique du programme"
+                    }
+                ]
+            },
+            {
+                "version": "v2.2",
+                "date": "Nov 26, 2023",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout du test de fuite DNS"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Prise en charge de l'affichage des cartes Bing dans l'interface"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Multiples optimisations de la logique"
+                    }
+                ]
+            },
+            {
+                "version": "v2.3",
+                "date": "Nov 27, 2023 ",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout du mode sombre"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout du mode minimaliste pour mobile"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la structure des fichiers"
+                    }
+                ]
+            },
+            {
+                "version": "v2.4",
+                "date": "Dec 1, 2023",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Prise en charge de la langue anglaise"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonctionnalité de masquage des informations"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Prise en charge de PWA, peut être installé sur mobile et ordinateur de bureau"
+                    }
+                ]
+            },
+            {
+                "version": "v2.5",
+                "date": "Dec 20, 2023",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Prise en charge des raccourcis clavier"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonctionnalité de test de vitesse des sites web"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Prise en charge du déploiement à l'aide de Docker"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Prise en charge de la récupération des informations de géolocalisation IP à partir de plusieurs sources"
+                    }
+                ]
+            },
+            {
+                "version": "v3.0",
+                "date": "Jan 28, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Refonte complète du projet en utilisant Vite + Vue3"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonctionnalité de test de latence mondiale"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonctionnalité de test MTR"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Multiples optimisations de performance et d'expérience utilisateur"
+                    }
+                ]
+            },
+            {
+                "version": "v3.1",
+                "date": "Jan 30, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la prise en charge d'une nouvelle langue : français"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout d'une animation de chargement des données"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la stratégie de cache"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Ajustement du style du mode sombre"
+                    },
+                    {
+                        "type": "fix",
+                        "change": "Correction de quelques problèmes mineurs"
+                    }
+                ]
+            },
+            {
+                "version": "v3.2",
+                "date": "Feb 3, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la détection du type NAT"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de l'expérience de l'application PWA"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Amélioration de la sécurité du script backend"
+                    }
+                ]
+            },
+            {
+                "version": "v3.3",
+                "date": "Feb 6, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Prise en charge de l'utilisation de différentes sources d'informations de géolocalisation IP"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Amélioration de l'expérience utilisateur de la détection de disponibilité de connexion"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Amélioration de l'expérience utilisateur de l'interface utilisateur"
+                    }
+                ]
+            },
+            {
+                "version": "v3.4",
+                "date": "Feb 17, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout d'un visualiseur de détails ASN"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la détection de proxy"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de l'interface utilisateur pour l'affichage des informations IP"
+                    }
+                ]
+            },
+            {
+                "version": "v3.5",
+                "date": "Mar 3, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout du test de règles"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Quelques améliorations"
+                    }
+                ]
+            },
+            {
+                "version": "v3.6",
+                "date": "Mar 10, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonction de résolution DNS"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la structure de la page d'accueil, les fonctionnalités avancées sont désormais repliables"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la logique du programme"
+                    }
+                ]
+            },
+            {
+                "version": "v3.7",
+                "date": "Apr 26, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Fonctionnalité de test de censure ajoutée"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Le test de vitesse réseau permet maintenant de personnaliser la taille des paquets"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de certaines logiques fonctionnelles"
+                    }
+                ]
+            },
+            {
+                "version": "v3.8",
+                "date": "May 4, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout du panneau de préférences pour enregistrer les paramètres localement"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Permettre la personnalisation de plusieurs comportements par défaut lors du deuxième lancement du programme"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation significative de la logique du programme"
+                    },
+                    {
+                        "type": "fix",
+                        "change": "Correction de quelques problèmes mineurs"
+                    }
+                ]
+            },
+            {
+                "version": "v3.9",
+                "date": "May 8, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonction de recherche Whois"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de l'affichage et des effets d'animation pour les outils avancés"
+                    },
+                    {
+                        "type": "fix",
+                        "change": "Correction de quelques problèmes mineurs"
+                    }
+                ]
+            },
+            {
+                "version": "v4.0",
+                "date": "May 13, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Refonte complète du projet en utilisant la Composition API de Vue 3"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Découpage du frontend en plusieurs modules pour améliorer la maintenabilité du programme"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la Test d'invisibilité (bêta)"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la structure des dépendances du backend"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de nombreux détails"
+                    }
+                ]
+            },
+            {
+                "version": "v4.1",
+                "date": "July 11, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonction de recherche MAC"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de nombreux détails"
+                    }
+                ]
+            },
+            {
+                "version": "v4.2",
+                "date": "Sept 25, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonction de requête d'informations du navigateur"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la base de données géographique MaxMind"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Améliorations multiples de l'expérience"
+                    }
+                ]
+            },
+            {
+                "version": "v4.3",
+                "date": "Oct 30, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la fonctionnalité API en ligne de commande"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Le test WebRTC peut maintenant afficher des informations régionales"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Le test de fuite DNS peut maintenant afficher des informations régionales"
+                    }
+                ]
+            },
+            {
+                "version": "v4.4",
+                "date": "Dec 7, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Préférences de langue"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Fournisseur de carte changé en Google"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Autres optimisations générales"
+                    }
+                ]
+            },
+            {
+                "version": "v4.5",
+                "date": "Dec 25, 2024",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Liste de vérification de sécurité"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Autres optimisations générales"
+                    }
+                ]
+            },
+            {
+                "version": "v5.0",
+                "date": "Jan 31, 2025",
+                "content": [
+                    {
+                        "type": "add",
+                        "change": "Ajout de la système d'utilisateur"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la système de réussite utilisateur"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Ajout de la version Lite"
+                    },
+                    {
+                        "type": "add",
+                        "change": "Le test de vitesse peut maintenant afficher des graphiques de données"
+                    },
+                    {
+                        "type": "improve",
+                        "change": "Optimisation de la performance du code"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b" />
+      <stop offset="100%" style="stop-color:#4ecdc4" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景矩形 -->
+  <rect x="0" y="0" width="120" height="60" fill="#f7f7f7" rx="10" ry="10" />
+  
+  <!-- 渐变文字 -->
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="url(#gradient)">
+    MyIP
+  </text>
+  
+  <!-- 动画圆形1 -->
+  <circle cx="30" cy="45" r="5" fill="#ff6b6b">
+    <animate attributeName="cy" values="45;40;45" dur="1s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- 动画圆形2 -->
+  <circle cx="90" cy="20" r="5" fill="#4ecdc4">
+    <animate attributeName="cy" values="20;25;20" dur="1s" repeatCount="indefinite" />
+  </circle>
+</svg>

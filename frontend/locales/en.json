@@ -1,0 +1,1131 @@
+{
+  "user": {
+    "SignIn": "Sign In",
+    "SignInWithGoogle": "Sign In with Google",
+    "SignInWithGithub": "Sign In with GitHub",
+    "SignOut": "Sign Out",
+    "SignInToView": "Sign In to View",
+    "SignInToUse": "Please sign in to use",
+    "InvalidUserToken": "Invalid User Token",
+    "MyAchievements": "My Achievements",
+    "Fields": {
+      "User": "User",
+      "CreatedAt": "Created At",
+      "LastLogin": "Last Login",
+      "Level": "User Level",
+      "FunctionUses": "Advanced Usage",
+      "Times": "Times",
+      "Fetching": "Fetching..."
+    },
+    "Level": {
+      "Standard": "Standard User",
+      "Premium": "Premium User",
+      "Owner": "Administrator",
+      "Developer": "Developer",
+      "HonoraryMember": "Honorary Member"
+    },
+    "Benefits": {
+      "Title": "User Benefits",
+      "Benefit": "Benefit",
+      "Note1": "As an open-source product, your use of IPCheck.ing is free of charge.",
+      "Note2": "However, to prevent abuse, we limit some features. By logging in, you will receive the following benefits:",
+      "Benefit1": "When you use IPCheck.ing as IP data source, all fields are displayed in full.",
+      "Benefit2": "You can use the invisibility test.",
+      "Benefit3": "You can view your own achievement badges",
+      "Benefit4": "Reduces access restrictions on some features.",
+      "FootNote": "More benefits are being developed..."
+    },
+    "Achievements": {
+      "Title": "Achievements",
+      "Note": "While using IPCheck.ing, you may trigger some achievements. Here you can see all your achievements.",
+      "Get": "Obtained",
+      "GetCount": "Obtained Achievements",
+      "NotGet": "Not Yet",
+      "NotGetCount": "Not Yet Achievements",
+      "FooterNote": "Sometimes, there may be some time-limited achievements.",
+      "Congrats": "🎉 Congratulations",
+      "CongratsMessage": "You have achieved a new accomplishment!",
+      "NewAchievementIs": "The new achievement is:",
+      "Type": {
+        "IAmHuman": {
+          "Title": "I Am Human",
+          "Meet": "Use IPCheck.ing after logging in"
+        },
+        "BarelyEnough": {
+          "Title": "Barely Enough",
+          "Meet": "Download speed exceeds 100Mb/s"
+        },
+        "RapidPace": {
+          "Title": "Rapid Pace",
+          "Meet": "Download speed exceeds 500Mb/s"
+        },
+        "TorrentFlow": {
+          "Title": "Torrent Flow",
+          "Meet": "Download speed exceeds 1000Mb/s"
+        },
+        "SteadyGoing": {
+          "Title": "Steady Going",
+          "Meet": "Upload speed exceeds 50Mb/s"
+        },
+        "TooFastTooSimple": {
+          "Title": "Too Fast Too Simple",
+          "Meet": "Upload speed exceeds 200Mb/s"
+        },
+        "SwiftAscent": {
+          "Title": "Swift Ascent",
+          "Meet": "Upload speed exceeds 1000Mb/s"
+        },
+        "SurfaceCheck": {
+          "Title": "Surface Check",
+          "Meet": "Complete a security checklist item"
+        },
+        "HalfwayThere": {
+          "Title": "Halfway There",
+          "Meet": "Complete 50% of the security checklist"
+        },
+        "FullySecured": {
+          "Title": "Fully Secured",
+          "Meet": "Complete the entire security checklist"
+        },
+        "JustInCase": {
+          "Title": "Just In Case",
+          "Meet": "Complete a stealth test"
+        },
+        "HiddenWell": {
+          "Title": "Hidden Well",
+          "Meet": "Proxy and VPN probability are both 0 in the stealth test"
+        },
+        "SlipUp": {
+          "Title": "Slip Up",
+          "Meet": "Proxy or VPN probability is greater than 50% in the stealth test"
+        },
+        "CleverTrickery": {
+          "Title": "Clever Trickery",
+          "Meet": "Viewed all keyboard shortcuts"
+        },
+        "EnergySaver": {
+          "Title": "Energy Saver",
+          "Meet": "Set the program not to run automatically"
+        },
+        "ResourceHog": {
+          "Title": "Resource Hog",
+          "Meet": "Set multiple refreshes for availability"
+        },
+        "MakingBigNews": {
+          "Title": "Making Big News",
+          "Meet": "Advanced function calls exceed 1000 times"
+        },
+        "GenerousDonor": {
+          "Title": "Generous Donor",
+          "Meet": "Donated to the IPCheck.ing project"
+        },
+        "ItIsOpen": {
+          "Title": "It Is Open",
+          "Meet": "Found a blocked website in the Censorship Check"
+        },
+        "CuriousCat": {
+          "Title": "Curious Cat",
+          "Meet": "Query IPCheck.ing information in the Whois Search"
+        },
+        "CrossingTheWall": {
+          "Title": "Crossing The Wall",
+          "Meet": "All 8 test IPs are different in the Rule Test"
+        }
+      }
+    }
+  },
+  "nav": {
+    "id": "nav",
+    "Title": "IPCheck.ing",
+    "Navigation": "Navigation",
+    "IPInfo": "IP Infos",
+    "Connectivity": "Connectivity",
+    "WebRTC": "WebRTC Test",
+    "DNSLeakTest": "DNS Leak Test",
+    "SpeedTest": "Speed Test",
+    "PingTest": "Global Latency",
+    "MTRTest": "MTR Test",
+    "RuleTest": "Rule Test",
+    "AdvancedTools": "Advanced Tools",
+    "preferences": {
+      "title": "Preferences",
+      "preferenceTips": "These settings are saved in your browser for easy reuse. Some options require refreshing the page to take effect.",
+      "colorScheme": "Color Scheme",
+      "systemAuto": "Auto",
+      "colorLight": "Day",
+      "colorDark": "Night",
+      "ipSourcesToCheck": "Servers To Check IPs",
+      "ipSourcesToCheckTips": "Select the number of servers to check your IP address. The more servers you select, the more time it will take to complete the check.",
+      "appSettings": "Program Settings",
+      "autoRun": "Auto Run",
+      "autoRunTips": "If disabled, the app will only check the local IP and will not run tests automatically.",
+      "showMap": "Show Map",
+      "showMapTips": "Displays a map on the IP info card.",
+      "simpleMode": "Simple Mode",
+      "simpleModeTips": "Reduces the information displayed on IP cards. Effective on mobile devices only.",
+      "connectivityAutoRefresh": "Multiple Connectivity Refreshes",
+      "connectivityAutoRefreshTips": "When enabled, the app runs five checks at startup and displays the lowest latency.",
+      "popupConnectivityNotifications": "Pop-up Connectivity Alerts",
+      "popupConnectivityNotificationsTips": "When enabled, the initial check's results are shown as a pop-up alert.",
+      "ipDB": "IP Geolocation Database",
+      "ipDBTips": "You can select the default IP geolocation source to use. If the selected source is unavailable, the system will use the subsequent sources in order.",
+      "language": "Language Setting",
+      "languageTips": "Refreshing the browser will take effect."
+    }
+  },
+  "securitychecklist": {
+    "Title": "Security Checklist",
+    "Note": "This is a very comprehensive cybersecurity checklist covering aspects such as password security, browsing security, and mobile device security. In the current environment, information leaks can lead to significant losses, thus it is necessary to ensure that we protect our privacy and enhance the security of our access while connected to the internet.",
+    "Note2": "This list contains many items; you do not need to check everything at once. Progress will be saved in the browser, and you can return at any time to continue the checks.",
+    "Progress": "Check Progress",
+    "Item": "Item",
+    "Items": "Item(s) ",
+    "Priority": "Priority",
+    "Ignore": "Ignore",
+    "alert-total": "The security check has a total of",
+    "alert-checked": "You have completed",
+    "alert-ignored": "Ignored",
+    "alert-unchecked": "Unchecked.",
+    "Checked": "Checked",
+    "Ignored": "Ignored",
+    "Unchecked": "Unchecked",
+    "Basic": "Basic",
+    "Optional": "Optional",
+    "Essential": "Essential",
+    "Advanced": "Advanced",
+    "Reset": "Reset Checklist",
+    "ShowAll": "Show All",
+    "ShowUnchecked": "Show Unchecked",
+    "ShowIgnored": "Show Ignored",
+    "ShowChecked": "Show Checked",
+    "Loading": "Loading..."
+  },
+  "curl": {
+    "Title": "Command Line API",
+    "Note1": "Hey, turns out you also like using the terminal?",
+    "Note2_1": "You can use",
+    "Note2_2": "command, get the IP address of your machine in terminal",
+    "Note3": "is an optional path, adding it will obtain the geographical information of the IP",
+    "getIPv4": "Get local machine's IPv4 address",
+    "getIPv6": "Get local machine's IPv6 address",
+    "get6and4": "Get the preferred network exit IP address of the local machine",
+    "notAvailable": "This feature is not available yet"
+  },
+  "browserinfo": {
+    "Title": "Browser Information",
+    "Note": "This page displays two types of browser information: basic information derived from the browser's User Agent, and a browser fingerprint calculated through various data metrics. Browser fingerprints are akin to the fingerprints on your palm; the more information your browser exposes, the higher your uniqueness to websites, making you more easily trackable. Sometimes, even switching to incognito mode or changing browsers may not alter your fingerprint.",
+    "Note2": "The methods for calculating browser fingerprints are diverse, and different technical approaches may lead to inconsistent results. Here, we use a relatively simple method for calculation.",
+    "browser": {
+      "Infos": "Browser Information",
+      "browserName": "Browser Name",
+      "browserVersion": "Version",
+      "engineName": "Engine",
+      "engineVersion": "Version",
+      "osName": "Operating System",
+      "osVersion": "Version",
+      "deviceModel": "Model",
+      "deviceVendor": "Manufacturer",
+      "cpuArchitecture": "CPU Architecture",
+      "gpu": "GPU",
+      "cpuCores": "CPU Cores",
+      "language": "Language Code",
+      "cookieEnabled": "Cookies Enabled",
+      "cookieEnabledTrue": "Yes",
+      "cookieEnabledFalse": "No"
+    },
+    "fingerprint": {
+      "Infos": "Fingerprint Information",
+      "fingerprint": "Fingerprint Code",
+      "changeOption": "You can try changing the data used to calculate the browser fingerprint to observe variations (remember to compare it in incognito mode).",
+      "browserTips": "Some browsers, such as Safari, protect users from tracking by generating different fingerprint values each time, even when the same data is selected."
+    },
+    "options": {
+      "audio": "Audio",
+      "canvas": "Canvas",
+      "fonts": "Fonts",
+      "hardware": "Hardware",
+      "locales": "Languages",
+      "permissions": "Permissions",
+      "plugins": "Plugins",
+      "screen": "Screen",
+      "system": "Browser Version",
+      "webgl": "WebGL",
+      "math": "Math"
+    },
+    "calError": "Failed to calculate browser information, please refresh and try again.",
+    "calculating": "Calculating..."
+  },
+  "censorshipcheck": {
+    "Title": "Censorship Check",
+    "Note": "Checks the availability of target websites in four regions known for rigorous internet censorship, including: Mainland China, Saudi Arabia, Russia, and Turkey. Tests are also conducted from regions with relatively free internet as a control group for verification. Some regions have clear legal provisions for internet censorship, while others are more vague.",
+    "Note2": "Please enter a URL or domain name to start the censorship test:",
+    "Note3": "A website is only considered blocked if it cannot be accessed from all servers within the same country.",
+    "Run": "Run Test",
+    "Placeholder": "URL or Domain Name",
+    "Country": "Region",
+    "Status": "Status",
+    "City": "City",
+    "Network": "Network",
+    "invalidURL": "Invalid URL or Domain Name",
+    "fetchError": "Unable to fetch test results",
+    "isBlocked": "This website appears to be blocked in some countries, please refer to the test results above for a final determination.",
+    "notBlocked": "This website does not appear to be blocked, please refer to the test results above for a final determination.",
+    "isDown": "It's unclear whether this website is blocked, as it appears to be inaccessible from many locations worldwide. If the address you entered is correct, it's possible that the website itself is having issues and cannot be accessed.",
+    "Timeout": "Test Timeout",
+    "TestGroup": "Test Group",
+    "ControlGroup": "Control Group"
+  },
+  "invisibilitytest": {
+    "Title": "Invisibility Test",
+    "Note": "When you use a proxy or VPN, do the websites you visit really not know that you are using a proxy? Are you truly invisible? We will use various methods to try to calculate the vulnerabilities in your disguise and find evidence that you are using a proxy. Although some test results may not be completely accurate, this test is still highly informative.",
+    "Note2": "After clicking Run, the system will run a script that usually completes all tests within 10 seconds. During this process, your IP information, browser information, etc. will be collected and analyzed in the background.",
+    "Run": "Run Test",
+    "fetchError": "Unable to fetch test results",
+    "yourIP": "Your main test IP is",
+    "proxyScore": "Proxy Percentage",
+    "VPNScore": "VPN Percentage",
+    "isProxy": "You may be using a proxy.",
+    "notProxy": "No evidence of you using a proxy was found.",
+    "isVPN": "You may be using a VPN.",
+    "notVPN": "No evidence of you using a VPN was found.",
+    "itemName": "Test Item",
+    "itemProxyResult": "Test Result",
+    "itemComment": "Analysis",
+    "agreement": "I agree",
+    "blocklist": {
+      "title": "VPN/Proxy Blocklist",
+      "proxy": "Your IP is in the VPN/Proxy blocklist.",
+      "notProxy": "Your IP is not in the VPN/Proxy blocklist."
+    },
+    "headers": {
+      "title": "HTTP Headers",
+      "proxy": "Your HTTP headers contain proxy information, indicating that you may be using a proxy.",
+      "notProxy": "Your HTTP headers do not contain proxy information."
+    },
+    "datacenter": {
+      "title": "Datacenter IP",
+      "proxy": "Your IP is a datacenter IP, which is not typically used by regular users. Detected datacenter: ",
+      "notProxy": "Your IP is not a datacenter IP."
+    },
+    "tcp": {
+      "title": "TCP Fingerprint",
+      "proxy": "The system you are connecting to is different from your computer system, indicating that you may be using a proxy. Although the system's judgment may not be accurate, it is certain that the two systems are different.",
+      "computer": "Your computer system is: ",
+      "server": "The system you are connecting to may be: ",
+      "notProxy": "The system you are connecting to is the same as your computer system."
+    },
+    "timezone": {
+      "title": "Timezone Difference",
+      "proxy": "Your timezone does not match the geolocation timezone of your IP, indicating that you may be using a proxy.",
+      "computer": "Your timezone is: ",
+      "server": "The geolocation timezone of your IP is: ",
+      "notProxy": "Your timezone matches the geolocation timezone of your IP."
+    },
+    "net": {
+      "title": "Network Resolution",
+      "proxy": "Network resolution indicates that you may be using a proxy or VPN.",
+      "notProxy": "No evidence of you using a proxy or VPN was found in network resolution."
+    },
+    "webrtc": {
+      "title": "WebRTC Detection",
+      "proxy": "WebRTC detected multiple IP addresses from different regions, indicating that you may be using a proxy or VPN.",
+      "ipsAre": "The IP addresses are: ",
+      "notProxy": "No evidence of multiple IP addresses from different regions was found in WebRTC detection."
+    },
+    "flow": {
+      "title": "Traffic Analysis",
+      "proxy": "Traffic analysis indicates that you may be using a proxy or VPN.",
+      "notProxy": "No evidence of you using a proxy or VPN was found in traffic analysis."
+    },
+    "latency": {
+      "title": "Latency Analysis",
+      "proxy": "Latency analysis indicates that you may be using a proxy or VPN.",
+      "fromTCP": "TCP latency value: ",
+      "fromWS": "WebSocket latency value: ",
+      "notProxy": "No evidence of you using a proxy or VPN was found in latency analysis."
+    },
+    "highlatency": {
+      "title": "High Latency Analysis",
+      "proxy": "High latency analysis indicates that you may be using a proxy or VPN.",
+      "notProxy": "No evidence of you using a proxy or VPN was found in high latency analysis."
+    }
+  },
+  "advancedtools": {
+    "Title": "Advanced Tools",
+    "Note": "Tools that are used relatively infrequently, but are very useful when performing network testing.",
+    "PingTestNote": "Global Ping value test",
+    "MTRTestNote": "Global MTR route test",
+    "DNSResolverNote": "Real-time multi-channel DNS resolution",
+    "RuleTestNote": "Check the rule settings of proxy software",
+    "CensorshipCheck": "Check if a website is blocked in some countries",
+    "Whois": "Search for domain/IP registration information",
+    "InvisibilityTest": "Check if you are using a proxy or VPN",
+    "MacChecker": "Query information of a physical address",
+    "BrowserInfo": "Check browser information and fingerprint",
+    "SecurityChecklist": "Guide to securing your digital life"
+  },
+  "macchecker": {
+    "Title": "MAC Lookup",
+    "Note": "Query the manufacturer of a physical address (MAC address), whether it is unicast/multicast, global/local, etc. Supports querying with a complete 12-digit address or just the prefix. You can also use this tool to verify if the physical address you generated meets your needs.",
+    "Note2": "Please enter a physical address to start the query:",
+    "Run": "Query",
+    "Placeholder": "F0:2F:4B:01:0A:AA",
+    "invalidMAC": "Invalid physical address",
+    "fetchError": "Unable to fetch query results",
+    "company": "Manufacturer",
+    "macPrefix": "Physical address prefix",
+    "address": "Registered address",
+    "country": "Registered country/region",
+    "blockStart": "Start block",
+    "blockEnd": "End block",
+    "blockSize": "Block size",
+    "blockType": "Block type",
+    "blockRange": "Block range",
+    "isRand": "Random address",
+    "isPrivate": "Private data",
+    "isMulticast": "Multicast address",
+    "isUnicast": "Unicast address",
+    "isGlobal": "Global address",
+    "isLocal": "Local address",
+    "property": "Address property",
+    "value": "Value",
+    "manufacturer": "Manufacturer details"
+  },
+  "whois": {
+    "Title": "Whois Search",
+    "Note": "Whois search is a service used to retrieve domain registration information. By entering a domain name or IP address, you can retrieve information such as the domain's registration details, registrar, registration date, expiration date, and more. The Whois information for IP addresses and domain names may have different fields. Additionally, some less common top-level domains (TLDs) may not have available information for Whois queries.",
+    "Note2": "Please enter a domain name or IP address to start the query:",
+    "Note3": "Whois information contains various types of fields. The following is the raw text information",
+    "Placeholder": "Domain Name or IP",
+    "Run": "Query",
+    "invalidURL": "Invalid domain name or IP",
+    "fetchError": "Unable to fetch query results or query results are empty",
+    "Provider": "Information Provider"
+  },
+  "dnsresolver": {
+    "Title": "DNS Resolution",
+    "Note": "In some regions, due to political or commercial reasons, some operators may contaminate certain domain names, resulting in incorrect results when accessed directly. Using DNS resolution checks will help you inspect the resolution results of domain names from well-known DNS providers around the world. Among the built-in DNS tests, some providers are from China, whose DNS resolution results may be contaminated. Please be discerning.",
+    "Note2": "Please enter a URL or domain name to start resolution:",
+    "Placeholder": "URL or Domain Name",
+    "Run": "Run",
+    "invalidURL": "Invalid URL or Domain Name",
+    "fetchError": "Unable to fetch resolution results",
+    "Provider": "DNS Provider",
+    "Result": "Resolution Result",
+    "Record": "Record"
+  },
+  "ruletest": {
+    "Title": "Rule Test",
+    "Name": "Test",
+    "Note": "Rule test is used to determine if the proxy software's domain-based rules are set correctly. Before conducting the test, you need to refer to the card below and set different domain-based routing rules for the 8 different URLs of IPCheck.ing in your proxy software.",
+    "StatusWait": "Awaiting Test or Test Error",
+    "StatusError": "Test Error",
+    "Country": "Proxy region",
+    "RefreshAll": "Refresh All"
+  },
+  "Tooltips": {
+    "RefreshIPCard": "Refresh IP Card",
+    "RefreshConnectivityTests": "Refresh Connectivity Tests",
+    "RefreshWebRTC": "Refresh WebRTC Test",
+    "RefreshDNSLeakTest": "Refresh DNS Leak Test",
+    "SpeedTestButton": "Start/Pause Speed Test",
+    "ToggleMaps": "Show/Hide Maps",
+    "SourceSelect": "Select IP Geolocation Source",
+    "ShowASNInfo": "Show AS Details",
+    "CopyIP": "Copy IP Address",
+    "InfoMask": "Hide IP Information",
+    "QueryIP": "Query IP Address",
+    "GithubLink": "View Source Code on GitHub",
+    "RefreshRuleTests": "Refresh Rule Tests",
+    "qualityScoreExplain": "The IP quality score is calculated based on multiple weighted factors, including the type of IP, whether it is a proxy/VPN, and the number of recent attack events detected from this IP. A higher score indicates better IP quality, reducing the likelihood of being blocked by risk control on some websites."
+  },
+  "ipInfos": {
+    "id": "ipinfos",
+    "database": "Database",
+    "Title": "IP Infos",
+    "Notes": "The program will first check your IP address from different sources (including IPv4 and IPv6), and then query the corresponding geographical data from the IP geolocation source you selected. If there is only 1 IP stack, the source without data will be displayed as empty.",
+    "Simple": "Simple",
+    "Map": "Map",
+    "MapUnavailable": "Map Unavailable",
+    "Source": "IP Source",
+    "IP": "IP",
+    "Country": "Region",
+    "Region": "State",
+    "City": "City",
+    "ISP": "ISP",
+    "ASN": "ASN",
+    "IPv4Error": "Fetch Failed or No IPv4 Address",
+    "IPv6Error": "Fetch Failed or No IPv6 Address",
+    "SelectSource": "Select IP Geolocation Source",
+    "type": "Type",
+    "isProxy": "Proxy",
+    "qualityScore": "IP Quality",
+    "qualityScoreUnknown": "Score Unknown",
+    "ASNInfo": {
+      "note": "Related data for this AS:",
+      "asnName": "AS Name:",
+      "asnOrgName": "AS Organization Name:",
+      "estimatedUsers": "Estimated Users:",
+      "IPv4_Pct": "IPv4 Traffic Percentage:",
+      "IPv6_Pct": "IPv6 Traffic Percentage:",
+      "HTTP_Pct": "HTTP Traffic Percentage:",
+      "HTTPS_Pct": "HTTPS Traffic Percentage:",
+      "Desktop_Pct": "Desktop Device Percentage:",
+      "Mobile_Pct": "Mobile Device Percentage:",
+      "Bot_Pct": "Bot Traffic Percentage:",
+      "Human_Pct": "Human Traffic Percentage:"
+    },
+    "proxyDetect": {
+      "yes": "Must be a proxy or VPN",
+      "maybe": "Possibly a proxy or VPN",
+      "no": "Not a proxy or VPN",
+      "unknownProxyType": "Unknown type",
+      "unknownProtocol": "Unknown protocol",
+      "type": {
+        "Residential": "Residential",
+        "Wireless": "Wireless",
+        "Business": "Business",
+        "Hosting": "Hosting",
+        "unknownType": "Unknown Type"
+      }
+    }
+  },
+  "connectivity": {
+    "id": "connectivity",
+    "Title": "Network Connectivity",
+    "Note": "Testing is done by loading small images from corresponding websites. Delay values are for reference only and will be smaller in reality.",
+    "StatusWait": "Awaiting Test",
+    "StatusAvailable": "OK",
+    "StatusUnavailable": "Unavailable",
+    "StatusTimeout": "Timeout or Unavailable",
+    "checking": "Checking...",
+    "minTestTime": "Min Test Time: ",
+    "RefreshThisTest": "Refresh This Test"
+  },
+  "webrtc": {
+    "id": "webrtc",
+    "Title": "WebRTC Test",
+    "Note": "WebRTC often establishes connections directly via UDP. If the test returns your real IP, it means your proxy settings do not cover these connections. In addition to detecting the IP you use when connecting to WebRTC, we also detect your NAT type. However, NAT type detection is not 100% accurate and is for reference only.",
+    "StatusWait": "Awaiting Test or Connection Error",
+    "StatusError": "Test Error",
+    "NATType": {
+      "srflx": "Port Restricted Cone or Symmetric",
+      "prflx": "Port Restricted Cone",
+      "relay": "Symmetric",
+      "host": "Full Cone",
+      "unknown": "Unknown Type"
+    }
+  },
+  "dnsleaktest": {
+    "id": "dnsleaktest",
+    "Name": "Test",
+    "Title": "DNS Leak Test",
+    "Note": "A DNS leak means that when you are connected to a VPN/proxy, your domain name resolutions are still done through your local ISP, thus posing a risk of DNS leaks.",
+    "Note2": "The method to test for DNS leaks involves accessing a newly generated domain name to detect which regional DNS exit you are resolving through. If the endpoint region returned matches your local service provider's region, there is a risk of DNS leakage. In this case, you may need to modify your VPN/proxy settings.",
+    "Endpoint": "DNS Endpoint",
+    "EndpointCountry": "Endpoint Region",
+    "StatusWait": "Awaiting Test",
+    "StatusError": "Test Error"
+  },
+  "speedtest": {
+    "id": "speedtest",
+    "Title": "Speed Test",
+    "Note": "Speed test will be done via Cloudflare's edge network, which may take a long time. If your network is located in mainland China, the data may be biased. The speed test results are for reference only, the actual speed will be faster. You can choose the packet size for download and upload tests. By default, the speed test will perform 4 rounds of packet uploads and downloads, please be mindful of data usage.",
+    "Download": "Download",
+    "Upload": "Upload",
+    "Latency": "Latency",
+    "Jitter": "Jitter",
+    "Unit": "Mbps",
+    "StatusWait": "--",
+    "StatusError": "Test Error",
+    "videoStreaming": "Video Streaming: ",
+    "gaming": ", Gaming: ",
+    "rtc": ", Video Chatting: ",
+    "score": "Based on the speed test, got the following quality scores:",
+    "resultNote": ".",
+    "connectionFrom": "Finished speed test from your machine, IP: ",
+    "connectionTo": " to test server:",
+    "connectionEnd": " .",
+    "quality": {
+      "Good": "Good",
+      "Medium": "Medium",
+      "Bad": "Bad"
+    }
+  },
+  "pingtest": {
+    "id": "pingtest",
+    "Title": "Global Latency Test",
+    "Note": "Ping test is a network tool used to measure the round-trip time of data packets from your device to specific targets (in this case, our servers located in different continents and regions). It is a key metric for evaluating network performance.",
+    "Note2": "In this process, IPCheck.ing sends small packets of data from servers around the world to your IP address and measures the time it takes for these packets to travel from the server to your device and back. Through these Ping tests from different geographical locations, you can gain a comprehensive view of the speed and stability of your device's connection to the global network.",
+    "Note3": "Please select your IP address for testing.",
+    "SelectIP": "Select an IP Address",
+    "Region": "Region",
+    "MinDelay": "Min Delay (ms)",
+    "MaxDelay": "Max Delay (ms)",
+    "AvgDelay": "Avg Delay (ms)",
+    "TotalPackets": "Total Packets",
+    "PacketLoss": "Packet Loss",
+    "ReceivedPackets": "Received",
+    "DroppedPackets": "Dropped",
+    "Run": "Run Test",
+    "Error": "Test failed, it looks like your IP is not allowed to perform Ping test."
+  },
+  "mtrtest": {
+    "id": "mtrtest",
+    "Title": "MTR Test",
+    "Note": "The MTR (My Traceroute) test performs detailed route tracing of your IP address from servers located in different continents and regions around the world. MTR combines the functionality of traditional traceroute and ping commands to diagnose the quality and performance of network connections in real-time.",
+    "Note2": "This process covers the complete path from various geographical locations to your network environment, providing information on latency and packet loss for each hop. Whether it's congestion in the routing path, latency issues at a specific node, or packet loss during transmission, the MTR test provides critical diagnostic information.",
+    "Note3": "Please select your IP address for testing.",
+    "SelectIP": "Select an IP Address",
+    "Region": "Region",
+    "Run": "Run Test",
+    "Error": "Test failed, it looks like your IP is not allowed to perform MTR test."
+  },
+  "ipcheck": {
+    "id": "ipcheck",
+    "Title": "IP Check",
+    "Placeholder": "Please enter an IP address",
+    "Button": "Check",
+    "Error": "Please enter a valid IPv4 or IPv6 address."
+  },
+  "alert": {
+    "id": "alert",
+    "refreshEverythingMessage": "Refreshing all data, please wait...",
+    "refreshEverythingTitle": "Refreshing",
+    "OhNo": "Oh No!",
+    "Congrats": "Congrats!",
+    "OhNo_Message": "Connectivity test failed, some websites are not accessible.",
+    "Congrats_Message": "All connectivity tests passed, you can access all websites.",
+    "maskedInfoTitle_1": "IP masked",
+    "maskedInfoMessage_1": "IP information has been masked, please be careful when taking screenshots.",
+    "maskedInfoTitle": "All infos masked",
+    "maskedInfoMessage": "All information has been masked, you can now safely take screenshots.",
+    "unmaskedInfoTitle": "Infos Unmasked",
+    "unmaskedInfoMessage": "Information has been unmasked, please be careful when taking screenshots.",
+    "SignInFailed": "Sign In Failed",
+    "SignInFailedReason": "Reason"
+  },
+  "shortcutKeys": {
+    "id": "shortcutKeys",
+    "GoToTop": "Go to Top",
+    "GoToBottom": "Go to Bottom",
+    "ToggleDarkMode": "Toggle Dark Mode",
+    "RefreshEverything": "Refresh Everything",
+    "RefreshIPCard": "Refresh IP Card",
+    "RefreshConnectivityTests": "Refresh Connectivity Tests",
+    "RefreshWebRTC": "Refresh WebRTC Test",
+    "RefreshDNSLeakTest": "Refresh DNS Leak Test",
+    "SpeedTestButton": "Start/Pause Speed Test",
+    "PingTest": "Open Global Latency Test panel",
+    "MTRTest": "Open MTR Test panel",
+    "RuleTest": "Open Rule Test panel",
+    "DNSResolver": "Open DNS Resolution panel",
+    "ToggleMaps": "Toggle Maps",
+    "IPCheck": "Query IP Address",
+    "ToggleInfoMask": "Toggle Info Masking",
+    "Help": "Show Shortcut Keys",
+    "HelpNote": "People who use shortcuts are really awesome!",
+    "GoNext": "Next Card",
+    "GoPrevious": "Previous Card",
+    "RefreshRuleTests": "Refresh Rule Tests",
+    "CensorshipCheck": "Open Censorship Check panel",
+    "Preferences": "Open Preferences",
+    "About": "Open About panel",
+    "Whois": "Open Whois Search panel",
+    "InvisibilityTest": "Open Invisibility Test panel",
+    "MacChecker": "Open MAC lookup panel",
+    "BrowserInfo": "Open Browser Info panel",
+    "fullScreenAdvancedTools": "Full Screen Advanced Tools",
+    "Curl": "Command Line API",
+    "SecurityChecklist": "Open Security Checklist panel"
+  },
+  "page": {
+    "title": "IPCheck.ing - Check My IP Address and Geolocation - Check WebRTC Connection IP - DNS Leak Test - Speed Test - Jason Ng Open Source",
+    "description": "A better and open source IP Toolbox. Easy to check what's your IPs, IP information, check for DNS leaks, examine WebRTC connections, test website availability, lookup DNS record, lookup Whois, and test latency from around the world.",
+    "keywords": "MyIP,IP Tool,My IP,IP check,IP lookup,DNS leak test,WebRTC test,Speed test,DNS lookup,Whois lookup, Ping test, privacy test",
+    "footerLink": "https://wobshare.us.kg",
+    "copyRightName": "Originally from ",
+    "copyRightLink": "https://ipcheck.ing",
+    "copyRightLinkName": "IPCheck.ing"
+  },
+  "helpModal": {
+    "Title": "Keyboard Shortcuts"
+  },
+  "about": {
+    "Title": "About",
+    "product1": "IPCheck.ing is a free IP toolbox that helps you check your IP information, test website availability, examine DNS exit information, perform speed tests, global latency tests, MTR tests, and more.",
+    "product2": "This is an open-source project, and you can view the source code by clicking on the GitHub icon at the bottom of the page.",
+    "product3": "Initially, this was a personal project for me to learn Vue.js and how to write code using ChatGPT. Over time, it gained more stars on GitHub, so I did a lot of refactoring and added many useful features. I hope you will enjoy it.",
+    "meTitle": "About Me",
+    "me1": "My name is Jason Ng, also known as Achán online. I'm not a professional programmer, but I love coding, open-source, and sharing.",
+    "me2": "Most of the time, I work as a product manager, a blogger, a motorcyle rider and a geek.",
+    "me3": "You can find a more detailed introduction about me in the following link:",
+    "contactTitle": "Contact Me",
+    "contact": "If you have any questions or suggestions, please contact me via email: jason[AT]kenengba.com.",
+    "personal": "Personal Website",
+    "blog": "My Blog",
+    "retiremoney": "Future Planner",
+    "twitter": "Twitter",
+    "Sponsor": "Sponsor"
+  },
+  "specialthanks": {
+    "Title": "Special Thanks",
+    "Note1": "This project could not have been completed without the support and help from some enthusiastic individuals and organizations, as well as those who provided inspiration or open-sourced their code. Many thanks to them:"
+  },
+  "changelog": {
+    "Title": "Changelog",
+    "add": "Added",
+    "improve": "Improved",
+    "fix": "Fixed",
+    "versions": [
+      {
+        "version": "v1.0",
+        "date": "Nov 06, 2020",
+        "content": [
+          {
+            "type": "add",
+            "change": "Display user's IP information"
+          },
+          {
+            "type": "add",
+            "change": "Display IP information before and after proxy"
+          },
+          {
+            "type": "add",
+            "change": "Check website availability"
+          }
+        ]
+      },
+      {
+        "version": "v2.0",
+        "date": "Nov 24, 2023",
+        "content": [
+          {
+            "type": "add",
+            "change": "Refactored the entire project using Vue2"
+          },
+          {
+            "type": "improve",
+            "change": "Refactored UI using Bootstrap v5"
+          }
+        ]
+      },
+      {
+        "version": "v2.1",
+        "date": "Nov 25, 2023",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added WebRTC test"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized program logic"
+          }
+        ]
+      },
+      {
+        "version": "v2.2",
+        "date": "Nov 26, 2023",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added DNS leak test"
+          },
+          {
+            "type": "add",
+            "change": "Support displaying Bing maps in the frontend"
+          },
+          {
+            "type": "improve",
+            "change": "Multiple logic optimizations"
+          }
+        ]
+      },
+      {
+        "version": "v2.3",
+        "date": "Nov 27, 2023 ",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added dark mode"
+          },
+          {
+            "type": "add",
+            "change": "Added minimalist mode for mobile"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized file structure"
+          }
+        ]
+      },
+      {
+        "version": "v2.4",
+        "date": "Dec 1, 2023",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added support for English language"
+          },
+          {
+            "type": "add",
+            "change": "Added information masking feature"
+          },
+          {
+            "type": "add",
+            "change": "Support PWA, can be installed on mobile and desktop"
+          }
+        ]
+      },
+      {
+        "version": "v2.5",
+        "date": "Dec 20, 2023",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added support for keyboard shortcuts"
+          },
+          {
+            "type": "add",
+            "change": "Added website speed test feature"
+          },
+          {
+            "type": "improve",
+            "change": "Support deployment using Docker"
+          },
+          {
+            "type": "improve",
+            "change": "Support retrieving IP geolocation information from multiple sources"
+          }
+        ]
+      },
+      {
+        "version": "v3.0",
+        "date": "Jan 28, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Refactored the entire project using Vite + Vue3"
+          },
+          {
+            "type": "add",
+            "change": "Added global latency test feature"
+          },
+          {
+            "type": "add",
+            "change": "Added MTR test feature"
+          },
+          {
+            "type": "improve",
+            "change": "Multiple performance and user experience optimizations"
+          }
+        ]
+      },
+      {
+        "version": "v3.1",
+        "date": "Jan 30, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added support for a new language: French"
+          },
+          {
+            "type": "add",
+            "change": "Added loading animation"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized caching strategy"
+          },
+          {
+            "type": "improve",
+            "change": "Adjusted dark mode styles"
+          },
+          {
+            "type": "fix",
+            "change": "Fixed some minor issues"
+          }
+        ]
+      },
+      {
+        "version": "v3.2",
+        "date": "Feb 3, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added NAT type detection"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized PWA application experience"
+          },
+          {
+            "type": "improve",
+            "change": "Enhanced backend script security"
+          }
+        ]
+      },
+      {
+        "version": "v3.3",
+        "date": "Feb 6, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added support for using different IP geolocation sources"
+          },
+          {
+            "type": "improve",
+            "change": "Improved user experience for connection availability detection"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized UI experience"
+          }
+        ]
+      },
+      {
+        "version": "v3.4",
+        "date": "Feb 17, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added ASN details viewer"
+          },
+          {
+            "type": "add",
+            "change": "Added proxy detection feature"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized UI for displaying IP information"
+          }
+        ]
+      },
+      {
+        "version": "v3.5",
+        "date": "Mar 3, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added rule test feature"
+          },
+          {
+            "type": "improve",
+            "change": "Some Improvements"
+          }
+        ]
+      },
+      {
+        "version": "v3.6",
+        "date": "Mar 10, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added DNS resolution feature"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized home page structure, advanced features are now collapsible"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized program logic"
+          }
+        ]
+      },
+      {
+        "version": "v3.7",
+        "date": "Apr 26, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added censorship test feature"
+          },
+          {
+            "type": "add",
+            "change": "Network speed test now allows custom packet size"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized some functional logic"
+          }
+        ]
+      },
+      {
+        "version": "v3.8",
+        "date": "May 4, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added preferences panel to save settings locally"
+          },
+          {
+            "type": "add",
+            "change": "Allow customization of multiple default behaviors on second program launch"
+          },
+          {
+            "type": "improve",
+            "change": "Significantly optimized program logic"
+          },
+          {
+            "type": "fix",
+            "change": "Fixed some minor issues"
+          }
+        ]
+      },
+      {
+        "version": "v3.9",
+        "date": "May 8, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added Whois search feature"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized display and animation effects for advanced tools"
+          },
+          {
+            "type": "fix",
+            "change": "Fixed some minor issues"
+          }
+        ]
+      },
+      {
+        "version": "v4.0",
+        "date": "May 13, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Refactored the entire project using Vue 3's Composition API"
+          },
+          {
+            "type": "add",
+            "change": "Split the frontend into multiple modules to improve maintainability"
+          },
+          {
+            "type": "add",
+            "change": "Added Invisibility Test feature (Beta)"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized backend program dependencies"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized numerous details"
+          }
+        ]
+      },
+      {
+        "version": "v4.1",
+        "date": "July 11, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added MAC address lookup feature"
+          },
+          {
+            "type": "improve",
+            "change": "Optimized numerous details"
+          }
+        ]
+      },
+      {
+        "version": "v4.2",
+        "date": "Sept 25, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added browser information query feature"
+          },
+          {
+            "type": "add",
+            "change": "Added MaxMind GeoIP database"
+          },
+          {
+            "type": "improve",
+            "change": "Multiple experience enhancements"
+          }
+        ]
+      },
+      {
+        "version": "v4.3",
+        "date": "Oct 30, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Added command line API feature"
+          },
+          {
+            "type": "improve",
+            "change": "WebRTC test can now display regional information"
+          },
+          {
+            "type": "improve",
+            "change": "DNS leak test can now display regional information"
+          }
+        ]
+      },
+      {
+        "version": "v4.4",
+        "date": "Dec 7, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Language preferences"
+          },
+          {
+            "type": "improve",
+            "change": "Map provider changed to Google"
+          },
+          {
+            "type": "improve",
+            "change": "Other general optimizations"
+          }
+        ]
+      },
+      {
+        "version": "v4.5",
+        "date": "Dec 25, 2024",
+        "content": [
+          {
+            "type": "add",
+            "change": "Add Security Checklist"
+          },
+          {
+            "type": "improve",
+            "change": "Other general optimizations"
+          }
+        ]
+      },
+      {
+        "version": "v5.0",
+        "date": "Jan 31, 2025",
+        "content": [
+          {
+            "type": "add",
+            "change": "Add user system"
+          },
+          {
+            "type": "add",
+            "change": "Add user achievement system"
+          },
+          {
+            "type": "add",
+            "change": "Add Lite version"
+          },
+          {
+            "type": "add",
+            "change": "Speed test can now display data change charts"
+          },
+          {
+            "type": "improve",
+            "change": "Code efficiency optimization"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="MyIP,IP Tool,My IP,IP check,IP lookup,DNS leak test,WebRTC test,Speed test,DNS lookup,Whois lookup, Ping test, privacy test">
+  <meta name="description"
+    content="A better and open source IP Toolbox. Easy to check what's your IPs, IP information, check for DNS leaks, examine WebRTC connections, test website availability, lookup DNS record, lookup Whois, and test latency from around the world.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#f8f9fa">
+  <meta name="background-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" href="logos/ios-logo-512.png">
+  <title>𝓌𝑜𝒷 MyIP | 查看我的 IP 地址 - 查询本机 IP 地址及归属地 - 查看 WebRTC 连接 IP - DNS 泄露检测 - 网速测试 </title>
+  <link rel="icon" href="logos/logo.svg">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <style>
+    .jn-spinner {
+      border: 4px solid rgb(12, 144, 34);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border-left-color: transparent;
+      animation: spin 1s linear infinite;
+      margin-top: 10px;
+    }
+
+    .jn-loading {
+      margin-top: 30vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .jn-spinner-text {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .jn-spinner-text p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="jn-loading" class="jn-loading">
+    <div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#ff6b6b" />
+                <stop offset="100%" style="stop-color:#4ecdc4" />
+            </linearGradient>
+        </defs>
+
+        <!-- 背景矩形 -->
+        <rect x="0" y="0" width="120" height="60" fill="#f7f7f7" rx="10" ry="10" />
+
+        <!-- 渐变文字 -->
+        <text x="60" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="url(#gradient)">
+            MyIP
+        </text>
+
+        <!-- 动画圆形1 -->
+        <circle cx="35" cy="45" r="5" fill="#ff6b6b">
+            <animate attributeName="cy" values="45;40;45" dur="1s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- 动画圆形2 -->
+        <circle cx="85" cy="20" r="5" fill="#4ecdc4">
+            <animate attributeName="cy" values="20;25;20" dur="1s" repeatCount="indefinite" />
+        </circle>
+    </svg>
+</div>
+
+    <div class="jn-spinner-text">
+      <p>It may take a while for the first time, please wait...</p>
+      <p>首次加载的时间可能会较长，请等待...</p>
+    </div>
+    <div class="jn-spinner "></div>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/frontend/main.js"></script>
+</body>
+
+</html>
