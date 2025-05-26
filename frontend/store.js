@@ -75,16 +75,17 @@ export const useMainStore = defineStore('main', {
       alertTitle: "",
       alertDuration: 2000,
     },
+    
     currentSection: 'IPInfo',
     ipDBs: [
-      { id: 0, text: 'IPAPI.co', url: 'https://ipapi.co/{{ip}}/json/', enabled: true },
-      { id: 1, text: 'IP-API.com', url: '/api/ipapicom?ip={{ip}}&lang={{lang}}', enabled: true },
-      { id: 2, text: 'MaxMind', url: '/api/maxmind?ip={{ip}}&lang={{lang}}', enabled: true },
-      { id: 3, text: 'IPinfo.io', url: '/api/ipinfo?ip={{ip}}', enabled: true },
-      { id: 4, text: 'IPAPI.is', url: '/api/ipapiis?ip={{ip}}', enabled: true },
-      { id: 5, text: 'IP2Location.io', url: '/api/ip2location?ip={{ip}}', enabled: true },
-      { id: 6, text: 'IP.sb', url: '/api/ipsb?ip={{ip}}', enabled: true },
-      
+      { id: 0, text: 'IPCheck.ing', url: '/api/ipchecking?ip={{ip}}&lang={{lang}}', enabled: true },
+      { id: 1, text: 'IPinfo.io', url: '/api/ipinfo?ip={{ip}}', enabled: true },
+      { id: 2, text: 'IP-API.com', url: '/api/ipapicom?ip={{ip}}&lang={{lang}}', enabled: true },
+      { id: 3, text: 'IPAPI.is', url: '/api/ipapiis?ip={{ip}}', enabled: true },
+      { id: 4, text: 'IP2Location.io', url: '/api/ip2location?ip={{ip}}', enabled: true },
+      { id: 5, text: 'IP.sb', url: '/api/ipsb?ip={{ip}}', enabled: true },
+      { id: 6, text: 'MaxMind', url: '/api/maxmind?ip={{ip}}&lang={{lang}}', enabled: true },
+      { id: 7, text: 'IPAPI.co', url: 'https://ipapi.co/{{ip}}/json/', enabled: true },
     ],
   }),
 
